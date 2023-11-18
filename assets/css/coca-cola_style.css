@@ -207,7 +207,7 @@ h2{
 #brand-list {
     background-color: rgb(19, 5, 0); /*Test*/
     height:90%;
-    width: 120%;
+    width: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
