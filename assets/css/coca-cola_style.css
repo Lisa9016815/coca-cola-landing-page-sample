@@ -1,0 +1,160 @@
+/* ------------------Rules------------------------- */
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+        
+}
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*-------------M A I N--------------------*/
+
+/*-------------Section: info-panels--------------------*/
+
+#info-panels{
+    background-color: rgb(23, 7, 255); /*Test*/
+    height: 190vh;
+    gap: 10vh;
+    padding: 10vh 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel {
+    background-color: coral; 
+    gap: 10vh;
+    width: 73%;
+    height: 70%;
+    justify-content: space-around;
+    align-items:center;
+    gap: 0;
+    
+}
+
+.panel-text {
+    background-color: violet; /*Test*/
+    padding-top: 5%;
+    padding-left: 5%;
+    gap: 0;
+    width: 50%;
+    height: 80%;
+    position: relative;
+    
+    z-index: 2;
+    border-radius: 16px;
+}
+
+h3 {
+    background-color: green; /*Test*/
+    
+    justify-content: left;
+    width: 75%;
+}
+
+p {
+    background-color: rgb(6, 63, 6); /*Test*/
+    width: 75%;
+    font-weight: 500;
+}
+
+#left-img{
+    background-image: url(https://imovegreen.it/wp-content/uploads/2020/10/sostenibilita-ambientale.jpg); /*Test*/
+    background-size: cover;
+    border-radius: 16px;
+    width:60%;
+    height:70%;
+    top: 16%;
+    left: 16%;   
+    position: relative;
+    z-index: 1;
+}
+
+#right-img {
+    background-image: url(https://imovegreen.it/wp-content/uploads/2020/10/sostenibilita-ambientale.jpg); /*Test*/
+    background-size: cover;
+    border-radius: 16px;
+    width:60%;
+    height:70%;
+    top:16%;
+    right: 16%;
+    position: relative;
+    z-index: 1;
+}
+
+/*-------------Section: brands--------------------*/
+
+#brands {
+    background-color: rgb(193, 18, 18); /*Test*/
+    align-items: center;
+    height: 100vh;
+    gap: 0;
+    padding: 10vh 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#brand-panel{
+    /* background-color: coral; /*Test */
+    width: 58%;
+    height: 70%;
+    justify-content: space-between;
+    align-items:center;
+    gap: 0;
+}
+
+#brand-title {
+    /* background-color: rgb(0, 0, 0); /*Test */
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5% 0; */
+}
+
+h2{
+    background-color: green; /*Test*/
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#brand-list {
+    background-color: rgb(19, 5, 0); /*Test*/
+    height:90%;
+    width: 120%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.brand-icon {
+    background-color: violet; /*Test*/
+    border-radius: 16px;
+    height: 45%;
+    width: 26%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
