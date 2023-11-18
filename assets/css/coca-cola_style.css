@@ -96,7 +96,7 @@ header {
 
 #info-panels{
     background-color: rgb(23, 7, 255); /*Test*/
-    height: 190vh;
+    height: 280vh;
     gap: 10vh;
     padding: 10vh 0;
     justify-content: space-between;
