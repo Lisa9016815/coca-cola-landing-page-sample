@@ -95,7 +95,7 @@ header {
 /*-------------Section: info-panels--------------------*/
 
 #info-panels{
-    background-color: rgb(23, 7, 255); /*Test*/
+    background-color: whitesmoke;
     height: 280vh;
     gap: 10vh;
     padding: 10vh 0;
@@ -104,7 +104,7 @@ header {
 }
 
 .panel {
-    background-color: coral; 
+   /*  background-color: coral; /*Test */
     gap: 10vh;
     width: 73%;
     height: 70%;
@@ -115,10 +115,11 @@ header {
 }
 
 .panel-text {
-    background-color: violet; /*Test*/
+    background-color: white;
+    box-shadow: 0 14px 18px rgba(0,0,0,.06);
     padding-top: 5%;
     padding-left: 5%;
-    gap: 0;
+    gap: 10px;
     width: 50%;
     height: 80%;
     position: relative;
@@ -126,16 +127,48 @@ header {
     z-index: 2;
     border-radius: 16px;
 }
+/*---Prodotto---*/
+#product-panel {
+    padding: 0;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
-h3 {
-    background-color: green; /*Test*/
+#product-panel > p{
+    width: 80%;
+    font-weight: 300;
+    
+}
+
+.wrapper {
+    background-color: white;
+    
+    height: 40%;
+    padding: 5%;
+    border-radius: 16px;
+}
+
+h4{ /* ATTENZIONE! uso tag generico*/
+    /* background-color: green; /*Test */
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h3 {/* ATTENZIONE! uso tag generico*/
+    /* background-color: green; /*Test*/
     
     justify-content: left;
     width: 75%;
 }
 
-p {
-    background-color: rgb(6, 63, 6); /*Test*/
+p { /* ATTENZIONE! uso tag generico*/
+    /* background-color: rgb(6, 63, 6); /*Test */
     width: 75%;
     font-weight: 500;
 }
@@ -153,7 +186,7 @@ p {
 }
 
 #right-img {
-    background-image: url(https://imovegreen.it/wp-content/uploads/2020/10/sostenibilita-ambientale.jpg); /*Test*/
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/it/it/home-images/homepage/it_homepage_Campaign_Card_2_1280x1024.jpg/width1960.jpg);
     background-size: cover;
     border-radius: 16px;
     width:60%;
@@ -167,7 +200,7 @@ p {
 /*-------------Section: brands--------------------*/
 
 #brands {
-    background-color: rgb(193, 18, 18); /*Test*/
+    background-color: whitesmoke;
     align-items: center;
     height: 100vh;
     gap: 0;
@@ -195,8 +228,9 @@ p {
     /* padding: 5% 0; */
 }
 
+
 h2{
-    background-color: green; /*Test*/
+    /*background-color: green; /*Test*/
     height: 100%;
     width: 50%;
     justify-content: center;
@@ -205,7 +239,7 @@ h2{
 }
 
 #brand-list {
-    background-color: rgb(19, 5, 0); /*Test*/
+    /*background-color: rgb(19, 5, 0); /*Test*/
     height:90%;
     width: 60%;
     flex-wrap: wrap;
@@ -216,7 +250,8 @@ h2{
 }
 
 .brand-icon {
-    background-color: violet; /*Test*/
+    background-color: white;
+    box-shadow: 0 14px 18px rgba(0,0,0,.06);
     border-radius: 16px;
     height: 180px;
     width: 180px;
@@ -228,5 +263,5 @@ h2{
     justify-content: center;
     align-items: center;
     width: 75%;
-    height: 75%;
+    height: 70%;
 }
