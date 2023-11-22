@@ -28,6 +28,19 @@ ul {
     flex-direction: column;
     
 }
+
+/*USO TAG GENERICO*/
+hr{ 
+    background-color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+
+
 /*------------- H E A D E R --------------------*/
 header {
     font-family: 'Josefin Sans', sans-serif; 
@@ -265,3 +278,125 @@ h2{
     width: 75%;
     height: 70%;
 }
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    height: 100%;
+    padding: 60px;
+}
+
+
+/* SECTION LOGO E BUTTON*/
+
+#logo-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.img-logo{
+    width: 15rem;
+}
+
+
+/*TERMINI*/
+
+.aside-form{
+    margin: 40px 30px 30px;
+    display: flex;
+    
+}
+
+.termini{
+    width: 42vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #fff;    
+}
+h5{ /* USO TAG GENERICO*/
+    margin-left: 10px;
+    color: rgb(112, 112, 114);
+    
+}
+
+.termini ul li{
+    padding: 10px;
+}
+
+/*FORM CONTACT*/
+
+#contact{
+    width: 491px;
+    align-items: center;
+}
+
+form{ /*USO TAG GENERICO*/
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.form-option{
+    width: 470px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.form-contact{
+    border-radius: 15px;
+    text-align: center;
+    margin: 6px;    
+    align-items: end;
+    
+}
+
+.button-foot{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: #fff;
+    background-color: black;
+    color: #fff;
+}
+
+.button-foot:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+
+.text-footer{
+    width: 40vw;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    align-items: flex-end;
+}
+
+/* SOCIAL FOOTER */
+.social-media-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end   ;
+}
+
+.social-footer {
+    display: flex;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.social-footer svg {
+    color: white;
+    margin-right: 16px;
+}
+
+.social-footer svg:hover {
+    color: #F40001;
+    transition: all .8s ease-in-out;
+}
+
