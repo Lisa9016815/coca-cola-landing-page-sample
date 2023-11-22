@@ -143,7 +143,8 @@ header {
 /*---Prodotto---*/
 #product-panel {
     padding: 0;
-    width: 40%;
+    max-width: 500px;
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -175,7 +176,7 @@ h4{ /* ATTENZIONE! uso tag generico*/
 
 h3 {/* ATTENZIONE! uso tag generico*/
     /* background-color: green; /*Test*/
-    
+    font-size: 22px;
     justify-content: left;
     width: 75%;
 }
@@ -276,7 +277,7 @@ h2{
     justify-content: center;
     align-items: center;
     width: 75%;
-    height: 70%;
+    
 }
 
 
