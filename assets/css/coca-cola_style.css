@@ -48,6 +48,8 @@ header {
     align-items: center;
     height: 12vh;
     background-color: #F40001;
+    box-shadow: 0px 4px 26px -2px rgba(0,0,0,0.79);
+    z-index: 1;
 }
 
 /* LOGO edit */
@@ -105,6 +107,7 @@ header {
 
 /*-------------M A I N--------------------*/
 
+<<<<<<< HEAD
 /*---The hero image---*/
 #hero-page {
     height: 88vh;
@@ -115,6 +118,8 @@ header {
     position: relative;
 }
 
+=======
+>>>>>>> 68d831fb3463877373b073f837077c3b3fd49d87
 
 /*-------------Section: info-panels--------------------*/
 
@@ -125,6 +130,7 @@ header {
     padding: 10vh 0;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px -4px 26px -2px rgba(0,0,0,0.79);
 }
 
 .panel {
